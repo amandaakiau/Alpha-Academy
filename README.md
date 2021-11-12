@@ -1,2 +1,2 @@
 # Alpha-Academy
-Projeto básico em HTML e CSS de uma página de login.
+Projeto básico de uma página de login, utilizando HTML e CSS.
