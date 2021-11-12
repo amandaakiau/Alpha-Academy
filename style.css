@@ -1,0 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+    border: 0ch;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+
+main{
+
+    display: flex;
+
+}
+
+
+.left{
+
+    width: 50vw;
+    height: 100vh;
+    
+    background: #FF66C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.left .titulo{
+
+    width: 80%; 
+    
+}
+
+
+.left .titulo h1{
+
+    font-size: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.right{
+  
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+
+}
+
+/* logo-imagem*/
+
+.right .imagem{
+
+    width: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-top: 95px;
+
+}
+
+.right .imagem img{
+
+    width: 270px;
+
+}
+
+
+.right .inicio{
+
+    width: 65%;
+  
+}
+
+.right .inicio h1{
+
+    color:#FF66C4;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}
+
+.right .inicio .email_e_senha input{
+
+  margin-bottom: 15px;
+  width: 95%;
+  outline: none;
+  border: 1px solid #FF66C4;
+  border-radius: 3px;
+  background-color: #fdceeb;
+  padding-left: 4px;
+  height: 20px;
+
+
+}
+
+
+.right .inicio .botao button{
+
+    margin: 30px 0 20px 0;
+    color: white;
+    background-color:#FF66C4;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+.right .inicio .botao button:hover{
+
+background-color: #ac096d;
+color: black;
+
+}
+
+.right .inicio .botao{
+
+    width: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
+
+.right .inicio .recuperar_senha a{
+
+    color: #FF66C4;
+    text-decoration: none;
+}
+
+.right .inicio .recuperar_senha a:hover{
+
+    color:  #ac096d;
+
+}
+
+
